@@ -84,7 +84,7 @@ select{
 <body> 
   <h2>Machine Learning Application</h2>
 
- <div class="login">
+ <div>
     <h1>Credit Card Default Prediction</h1>
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
@@ -146,10 +146,10 @@ select{
     </select>
 
     <br>
-    <input type="text" name="PAY_AMT1" placeholder="PAY_AMT1" required="required" />
-    <input type="text" name="PAY_AMT2" placeholder="PAY_AMT2" required="required" />
-    <input type="text" name="PAY_AMT3" placeholder="PAY_AMT3" required="required" />
-    <input type="text" name="PAY_AMT6" placeholder="PAY_AMT6" required="required" />
+    <input type="text" name="PAY_AMT1" placeholder="PAY_AMT1" required="required" >
+    <input type="text" name="PAY_AMT2" placeholder="PAY_AMT2" required="required" >
+    <input type="text" name="PAY_AMT3" placeholder="PAY_AMT3" required="required" >
+    <input type="text" name="PAY_AMT6" placeholder="PAY_AMT6" required="required" >
 
     <br>
     <input type="submit" value="Submit">

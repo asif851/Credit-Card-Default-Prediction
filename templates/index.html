@@ -38,7 +38,7 @@ div {
   border-radius: 5px;
   background-color: WhiteSmoke;
   padding-top: 150px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
   text-align: center;
   
 }
@@ -68,9 +68,10 @@ input[type=text] {
 }
 
 body{
-
+  max-height: 100px;
   background-color: Teal;
   background-size: cover;
+  margin-bottom: 0 !important;
 }
 select{
      width:10%;
@@ -155,5 +156,11 @@ select{
     <input type="submit" value="Submit">
     </form>
  </div>
+
+ <script>
+  if(document.querySelector(".result").innerHTML==" "){
+    document.querySelector(".result").css.display = "none";
+  }
+ </script>
 </body>
 </html>
